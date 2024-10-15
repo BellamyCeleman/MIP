@@ -1,0 +1,55 @@
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[letterpaper, top=1.0in]{geometry}
+\usepackage[numbers, sort]{natbib} % Используйте natbib без cite
+\usepackage{tocloft}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\title{Real-Time Recommendations in Movie Streaming Services\thanks{Semester project in the subject Methods of Engineering work, academic year 2024/25, supervisor: }}
+
+\author{Oleksandr Vahabov\\[2pt]}
+
+\date{\small October 1, 2024}
+
+\begin{document}
+
+\maketitle
+
+\renewcommand{\abstractname}{\Large Abstract}
+\begin{abstract}
+\vspace{10pt}
+\large
+
+Users have access to an enormous amount of data in the contemporary digital era because of the vast array of technology and information that are available online. This results in searching through lots of results to find the one that the user actually needs. In order to address this issue, recommendation systems assist users to find products that are similar with their interests. The purpose of a movie recommendation system is to find movies, which user will like. Based on what the user has already seen, the system can recommend movies to them using this data. It also takes into account user ratings, reviews, and even the watching habits of similar users to further refine its suggestions. Additionally, it takes into account details on the film itself, like the title, director, cast, and the year of release. There are a lot of different types of recommendation systems. It can be based on the description of a product and a profile of the user’s preferred choices or model can gather and analyze data on user’s behavior. This includes the user’s online activities. And we can combine some methods and create hybrid prediction model.\citep{10389982}
+\end{abstract}
+
+\newpage
+\renewcommand{\contentsname}{Contents}
+\setcounter{tocdepth}{1}
+
+\tableofcontents 
+
+\newpage
+\section{Introduction}
+\section{Methodology}
+\section{Data Collection and User Behavior Analysis} 
+\section{Challenges and Limitations}
+\section{Future Trends}
+\section{Conclusion}
+\section{References}
+\newpage
+
+\renewcommand{\refname}{References}
+\bibliographystyle{plain}
+\bibliography{preferences} 
+
+\end{document}
